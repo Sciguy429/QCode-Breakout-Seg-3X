@@ -254,7 +254,6 @@ void loop()
     //Grab our new code and update the displays
     // - TODO
     curQCode = Serial.read();
-    //segmentDSP.setHex(0, curQCode);
 
     //Echo the serial data if need be
     if (ECHO_SERIAL_DATA)
